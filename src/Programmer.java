@@ -1,4 +1,8 @@
-import java.lang.reflect.Array;
+/*
+    Name: Casey Spaulding
+    Company: SkillStorm
+    Programmer.java
+ */
 import java.util.ArrayList;
 
 public class Programmer {
@@ -35,11 +39,13 @@ public class Programmer {
     public void forgetLanguage(String language) {
         System.out.println( name + " Forgot the programming language " + language + ".");
         languages.remove(language);
+        System.out.println("");
     }
 
     public void learnedLanguage(String language) {
         System.out.println(name + " learned the programming language " + language + ".");
         languages.add(language);
+        System.out.println("");
     }
 
     public void changeCompany(String company) {
@@ -50,8 +56,6 @@ public class Programmer {
         this.name = name;
     }
 
-
-
     public void printProgrammer() {
         System.out.println("Name: " + name);
         System.out.println("Company: " + company);
@@ -59,6 +63,7 @@ public class Programmer {
     }
 
     public static void main(String[] args) {
+
         ArrayList<String> languages = new ArrayList<String>();
         languages.add("Java");
         languages.add("C#");
@@ -70,17 +75,23 @@ public class Programmer {
         Programmer programmer = new Programmer("Casey Spaulding", "SkillStorm", languages);
         Programmer programmer2 = new Programmer("Bruce Wayne", "DC", languages);
 
-        programmer2.forgetLanguage("Java");
         programmer.printProgrammer();
-        programmer.addLanguage("C#");
-        programmer.forgetLanguage("C#");
-        programmer.printProgrammer();
+        programmer2.printProgrammer();
+        programmer.learnedLanguage("C++");
+        programmer2.learnedLanguage("C++");
 
-        programmer.printProgrammer();
-        programmer.changeCompany("Google");
-        programmer.printProgrammer();
-        programmer.changeName("Casey");
-        programmer.printProgrammer();
+        programmer.forgetLanguage("C#");
+        programmer2.forgetLanguage("Java");
+
+
+
+
+
+
+
+
+
+
     }
 
 
