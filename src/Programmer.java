@@ -76,20 +76,27 @@ public class Programmer {
         Programmer programmer2 = new Programmer("Bruce Wayne", "DC", languages);
         System.out.println("Programmer 1");
         programmer.printProgrammer();
+        System.out.println("");
         System.out.println("Programmer 2");
         programmer2.printProgrammer();
+        System.out.println("");
         languages.add("Java");
         languages.add("C#");
         languages.add("Python");
         languages.add("JavaScript");
-        languages.add("HTML");
         languages.add("CSS");
         programmer.learnedLanguage("C++");
+        programmer.learnedLanguage("JavaScript");
+        programmer.learnedLanguage("CSS");
+        programmer.learnedLanguage("Python");
         programmer2.learnedLanguage("C++");
         programmer.learnedLanguage("Java");
-
+        programmer.forgetLanguage("Python");
         programmer.forgetLanguage("C#");
         programmer2.forgetLanguage("Java");
+        programmer.printProgrammer();
+        programmer2.printProgrammer();
+
 
 
 
