@@ -65,20 +65,21 @@ public class Programmer {
     public static void main(String[] args) {
 
         ArrayList<String> languages = new ArrayList<String>();
-        languages.add("Java");
-        languages.add("C#");
-        languages.add("Python");
-        languages.add("JavaScript");
-        languages.add("HTML");
-        languages.add("CSS");
 
         Programmer programmer = new Programmer("Casey Spaulding", "SkillStorm", languages);
         Programmer programmer2 = new Programmer("Bruce Wayne", "DC", languages);
 
         programmer.printProgrammer();
         programmer2.printProgrammer();
+        languages.add("Java");
+        languages.add("C#");
+        languages.add("Python");
+        languages.add("JavaScript");
+        languages.add("HTML");
+        languages.add("CSS");
         programmer.learnedLanguage("C++");
         programmer2.learnedLanguage("C++");
+        programmer.learnedLanguage("Java");
 
         programmer.forgetLanguage("C#");
         programmer2.forgetLanguage("Java");
