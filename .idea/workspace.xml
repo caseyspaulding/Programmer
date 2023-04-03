@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aecda1d1-1989-458f-a106-8818ace50d4a" name="Changes" comment="updated learned programming language method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680548046346</updated>
-      <workItem from="1680548048099" duration="2216000" />
+      <workItem from="1680548048099" duration="2315000" />
     </task>
     <task id="LOCAL-00001" summary="updated learned programming language method">
       <created>1680549953987</created>
@@ -68,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680550297775</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated learned programming language method">
+      <created>1680550400799</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680550400799</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -63,13 +63,20 @@ public class Programmer {
     }
 
     public static void main(String[] args) {
+        System.out.println("Name: Casey Spaulding");
+        System.out.println("Company: SkillStorm");
+        System.out.println("Programmer.java");
+        System.out.println("__________________________________________________________");
+        System.out.println();
+
 
         ArrayList<String> languages = new ArrayList<String>();
 
         Programmer programmer = new Programmer("Casey Spaulding", "SkillStorm", languages);
         Programmer programmer2 = new Programmer("Bruce Wayne", "DC", languages);
-
+        System.out.println("Programmer 1");
         programmer.printProgrammer();
+        System.out.println("Programmer 2");
         programmer2.printProgrammer();
         languages.add("Java");
         languages.add("C#");
